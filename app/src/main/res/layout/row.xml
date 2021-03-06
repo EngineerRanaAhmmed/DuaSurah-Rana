@@ -15,6 +15,7 @@
         android:textStyle="bold"
         android:textSize="18sp"
         android:textColor="#FFFFFF"
+        android:fontFamily="@font/lohit"
         />
 
 
