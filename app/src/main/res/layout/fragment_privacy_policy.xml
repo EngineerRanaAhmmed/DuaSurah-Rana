@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrivacyPolicyFragment">
+
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:text="@string/privacy_policy"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/main"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/header"
+        android:layout_centerHorizontal="true"
+        android:text="@string/policy"
+        android:textSize="16sp"
+        android:lineSpacingExtra="5dp"
+        />
+
+    <TextView
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cont"
+        android:layout_marginTop="20sp"
+        android:textSize="16sp"
+        android:lineSpacingExtra="5dp"
+        android:linksClickable="true"
+        android:autoLink="email"
+        />
+
+
+
+
+</RelativeLayout>
