@@ -27,10 +27,8 @@ public class ViewLayout extends AppCompatActivity {
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
 
-
-
-
         text();
+        title();
     }
 
     private void text(){
@@ -43,6 +41,18 @@ public class ViewLayout extends AppCompatActivity {
     private void setText(String textItem){
         TextView textView = findViewById(R.id.activityPageText);
         textView.setText(textItem);
+    }
+
+    private void title(){
+        if (getIntent().hasExtra("toolbar")){
+            String toolBarChange = getIntent().getStringExtra("toolbar");
+            setTitle(toolBarChange);
+        }
+    }
+
+    private void setTitle(String toolBarItem){
+        Toolbar mToolBar = findViewById(R.id.activityToolBar);
+        mToolBar.setTitle(toolBarItem);
     }
 
 }

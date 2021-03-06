@@ -46,6 +46,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHOlder> {
 
             Intent intent = new Intent(context, ViewLayout.class);
             intent.putExtra("textItem", mData);
+            intent.putExtra("toolbar", myData);
             context.startActivity(intent);
 
         });
@@ -60,7 +61,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHOlder> {
     public static class MyViewHOlder extends RecyclerView.ViewHolder{
 
         Button button;
-        Toolbar toolbar;
 
 
         public MyViewHOlder(@NonNull View itemView) {
