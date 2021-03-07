@@ -87,6 +87,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_home:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new HomeFragment()).commit();
                 break;
+
+            case R.id.nav_home2:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new DuaFragment()).commit();
+                break;
+
             case R.id.nav_contact:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new ContactFragment()).commit();
                 break;

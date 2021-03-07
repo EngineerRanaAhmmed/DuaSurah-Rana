@@ -19,7 +19,7 @@
         <activity
             android:name=".ViewLayout"
             android:parentActivityName=".ViewLayout" />
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
