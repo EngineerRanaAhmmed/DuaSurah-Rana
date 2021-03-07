@@ -105,13 +105,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 intentShare = Intent.createChooser(intentShare, "share by");
                 startActivity(intentShare);
                 break;
-            case R.id.nav_privacy:
+                case R.id.nav_privacy:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new PrivacyPolicyFragment()).commit();
                 break;
-//
-//            case R.id.contactUs:
-//                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ContactUsFragment()).commit();
-//                break;
+            case R.id.nav_youtube:
+                String youTubeLink = "https://www.youtube.com/channel/UCtTEqp4IY1-B5phlRdSjZoQ/videos";
+                Uri yUri = Uri.parse(youTubeLink);
+                Intent yIntent = new Intent(Intent.ACTION_VIEW, yUri);
+                startActivity(yIntent);
+                break;
+
+
+
 
         }
         return true;
