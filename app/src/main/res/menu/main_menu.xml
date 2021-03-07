@@ -15,6 +15,11 @@
             android:icon="@drawable/icon_home"/>
 
         <item
+            android:id="@+id/nav_home3"
+            android:title="@string/NamezLearn"
+            android:icon="@drawable/icon_home"/>
+
+        <item
             android:id="@+id/nav_contact"
             android:icon="@drawable/icon_contact"
             android:title="@string/contact" />

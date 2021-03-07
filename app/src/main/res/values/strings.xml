@@ -46,6 +46,7 @@
     <string name="cont">Privacy Policy নিয়ে আপনাদের কোনো মতামত কিংবা অভিযোগ থাকলে আমাদের জানান। \n \n<b>E-mail : ranaahmmed786@gmail.com</b></string>
     <string name="youtube">আমাদের ইউটিউব চ্যানেল</string>
     <string name="duas">দোয়া সমূহ</string>
+    <string name="NamezLearn">নামাজ শিক্ষা</string>
 
 
     <!--    Start here-->
@@ -328,18 +329,33 @@
 
     </string-array>
 
-<!--    দোয়া সমূহ এখান থেকে কাজ করিস -->
-    
+    <!--    দোয়া সমূহ এখান থেকে কাজ করিস -->
+
     <string-array name="dua_name">
-        
+
         <item>Hello</item>
-        
+
     </string-array>
-    
-    
+
+
     <string-array name="dua_details">
 
         <item>Rana</item>
+
+    </string-array>
+
+
+    <!--    দোয়া সমূহ এখান থেকে কাজ করিস -->
+
+    <string-array name="namez_title">
+
+        <item>Namez</item>
+
+    </string-array>
+
+    <string-array name="namez_details">
+
+        <item>Text</item>
 
     </string-array>
 
