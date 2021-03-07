@@ -15,25 +15,26 @@
     <string name="email">ranaahmmed786@gmail.com</string>
     <string name="phone">+880 1947"-"781499</string>
 
-    <string name="menu_home">Home</string>
+    <string name="menu_home">প্রথম পাতা</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="exit">Exit</string>
     <string name="communicate">Communicate</string>
-    <string name="share">Share</string>
-    <string name="send">Send</string>
-    <string name="contact">Contacts</string>
-    <string name="rate_app">Rate App</string>
-    <string name="more_apps">More Apps</string>
-    <string name="privacy">Privacy &amp; Policy</string>
+    <string name="share">অ্যাপস টি শেয়ার করুন</string>
+    <string name="send">বন্ধুদের শেয়ার করুন</string>
+    <string name="contact">আমাদের যোগাযোগের ঠিকানা</string>
+    <string name="rate_app">অ্যাপসটিতে ৫ স্টার দিন</string>
+    <string name="more_apps">আমাদের আরও অ্যাপস</string>
+    <string name="privacy">আপনাদের নিরাপত্তা নীতি</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="email_address">E-Mail</string>
-    <string name="phone_number">Phone Number</string>
+    <string name="email_address">E-mail</string>
+    <string name="phone_number">Phone number</string>
     <string name="facebook">Facebook</string>
     <string name="contact_whatsapp"><u>Contact WhatsApp</u></string>
     <string name="whatsapp">WhatsApp</string>
     <string name="contact_us_admin">Contact Us Admin:</string>
     <string name="rana_small_leter">Mohammad Rana Ahmmed</string>
+
     <string name="des_rana">
      ✔️WordPress Template Customization  ✔️Plugin Customization  ✔️Widget Customization  ✔️Creating Search  ✔️Fixing WordPress issues   ✔️WordPress Template Customization  ✔️Plugin Customization  ✔️Widget Customization  ✔️Creating Search  ✔️Fixing WordPress issues  ✔️Android App Developer</string>
     <string name="dest_rana_2">Hi, I am a Professional Web Designer and WordPress Theme Developer. I have five years of experience in web design and development.</string>
@@ -324,5 +325,9 @@
 \n\nবিসমিল্লাহির রাহমানির রাহীম\n\nকুল আউযু বিরাব্বিন্নাসি। মালিকিন্নাসি। ইলা হিন্নাসি মিন শাররিল ওয়াস ওয়াসিল খান্নাসি। আল্লাযী ইউওয়াসওয়িসু ফী ছুদুরিন্নাসি। মিনাল জ্বিন্নাতি অন্নাস।\n\n⭕ বাংলা অর্থঃ \n\nশুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু। বলুন, আশ্রয় চাই মানুষের রবের মানুষের মালিকের মানুষের ইলাহের তার অনিষ্ট হতে যে কুমন্ত্রণা প্রদান করে, আর যে মানুষের মনে কুমন্ত্রণা প্রদান করে, জিন হোক, আর মানুষ হোক।</item>
 
     </string-array>
+
+
+
+
 
 </resources>
