@@ -25,6 +25,11 @@
             android:title="@string/more_apps" />
 
         <item
+            android:id="@+id/nav_youtube"
+            android:icon="@drawable/icon_youtube"
+            android:title="@string/youtube"/>
+
+        <item
             android:id="@+id/nav_privacy"
             android:icon="@drawable/icon_privacy"
             android:title="@string/privacy" />
@@ -46,10 +51,7 @@
                 android:icon="@drawable/icon_send"
                 android:title="@string/send" />
 
-            <item
-                android:id="@+id/nav_youtube"
-                android:icon="@drawable/icon_youtube"
-                android:title="@string/youtube"/>
+
 
         </menu>
 
