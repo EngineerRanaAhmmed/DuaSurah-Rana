@@ -20,8 +20,8 @@ public class DuaFragment extends Fragment {
         View  view = inflater.inflate(R.layout.fragment_dua, container, false);
 
 
-        String[] sms = getResources().getStringArray(R.array.namez_title);
-        String[] ok = getResources().getStringArray(R.array.namez_details);
+        String[] sms = getResources().getStringArray(R.array.dua_name);
+        String[] ok = getResources().getStringArray(R.array.dua_details);
         RecyclerView recyclerView = view.findViewById(R.id.recyclerview);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         recyclerView.setAdapter(new MyAdapter(sms, ok));
