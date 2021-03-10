@@ -1,22 +1,20 @@
 package com.rana.duasurah;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.core.content.res.ResourcesCompat;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -96,6 +94,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new NamezFragment()).commit();
                 break;
 
+            case R.id.nav_home4:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new IslamicStatusFragment()).commit();
+                break;
+
             case R.id.nav_contact:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new ContactFragment()).commit();
                 break;
@@ -117,12 +119,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 case R.id.nav_privacy:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new PrivacyPolicyFragment()).commit();
                 break;
-            case R.id.nav_youtube:
-                String youTubeLink = "https://www.youtube.com/channel/UCtTEqp4IY1-B5phlRdSjZoQ/videos";
-                Uri yUri = Uri.parse(youTubeLink);
-                Intent yIntent = new Intent(Intent.ACTION_VIEW, yUri);
-                startActivity(yIntent);
-                break;
+
 
 
 

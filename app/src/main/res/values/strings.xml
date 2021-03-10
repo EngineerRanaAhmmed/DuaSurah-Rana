@@ -8,14 +8,14 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">প্রয়োজনীয় সূরা ও দোয়ার ভান্ডার</string>
-    <string name="nav_header_subtitle">MD. RANA AHMMED</string>
+    <string name="nav_header_subtitle">বাংলা উচ্চারণ ও অর্থ সহ</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
     <string name="email">ranaahmmed786@gmail.com</string>
     <string name="phone">+880 1947"-"781499</string>
 
-    <string name="menu_home">প্রথম পাতা</string>
+    <string name="menu_home">কোরআনের সূরা সমূহ</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="exit">Exit</string>
@@ -40,13 +40,54 @@
     <string name="dest_rana_2">Hi, I am a Professional Web Designer and WordPress Theme Developer. I have five years of experience in web design and development.</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="policy">
-        পরিষেবা সরবরাহ এবং উন্নত করতে আমরা আপনার ডেটা ব্যবহার করি না । \n \n
-        আমাদের পরিষেবাটি ব্যবহার করার সময়, আমরা আপনাকে আমাদের ব্যক্তিগতভাবে সনাক্তকরণযোগ্য তথ্য সরবরাহ করতে বলব যা আপনাকে ("ব্যক্তিগত ডেটা") সাথে যোগাযোগ বা সনাক্ত করতে ব্যবহার করা যেতে পারে। ব্যক্তিগতভাবে সনাক্তযোগ্য তথ্য অন্তর্ভুক্ত থাকতে পারে, তবে সীমাবদ্ধ নয়গ।
+        🟢 PRIVACY POLICY 🟢
+\n\nAppAmarBD built the সূরা ও দোয়া app as a Free app. This SERVICE is provided by AppAmarBD at no cost and is intended for use as is.
+\n\nThis page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+\n\nIf you choose to use my service, then you agree to the collection and use of information in relation to this policy. The personal information that I collect is used for providing and improving the service. I will not use or share your information with anyone except as described in this Privacy Policy.
+\n\nThe terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at ou ft stat সূরা ও দোয়া unless otherwise defined in this Privacy Policy.
+\n\n
+🟢 Information Collection and Use
+\nFor A Better Experience, While Using Our Service, I May Require You To Provide Us With Certain Personally Identifiable Information, Including But Not Limited To The Internet, Access Network State, Access Wifi State, Receive Boot Completed, Wake Lock, Vibrate, C2dm. Permission. Receive, C2dm. Permission. Send. Write External Storage, Read Phone State, Read External Storage, Bind Job Service. The Information That I Request Will Be Retained On Your Device And Is Not Collected By Me In Any Way.
+\n\nThe app does use third-party services that may collect information used to identify you.
+\n\n
+🟢 Link to the privacy policy of third party service providers used by the app
+\n\n
+-Google Play Services
+-AdMob
+-Firebase Analytics
+-Log Data
+\n\n
+I want to inform you that whenever you use my service, in case of an error in the app I collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (IP) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
+\n\n
+🟢 Cookies
+\nCookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your devices internal memory
+\n\nThis Service does not use these "cookies" explicitly. However, the app may use third-party code and libraries that use "cookies" to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this service.
+\n\n
+🟢 Service Providers
+\nI may employ third-party companies and individuals due to the following reasons:
+\nTo facilitate our Service; To provide the Service on our behalf;
+\n\nTo perform Service-related services, or To assist us in analyzing how our Service is used. I want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+\n\n
+🟢 Security
+\nI value your trust in providing us your personal information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+\n\n
+🟢 Links to Other Sites
+\nThis Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+\n\n
+🟢 Childrens Privacy
+\nThese Services do not address anyone under the age of 12. I do not knowingly collect personally identifiable information from children under 12. In the case I discover that a child under 12 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do the necessary actions.
+\n\n
+🟢 Changes to This Privacy Policy
+\nI may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
+\n\n
+🟢 Contact Us
+\nIf you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at ranaahmmed786@gmail.com.
     </string>
-    <string name="cont">Privacy Policy নিয়ে আপনাদের কোনো মতামত কিংবা অভিযোগ থাকলে আমাদের জানান। \n \n<b>E-mail : ranaahmmed786@gmail.com</b></string>
+    <string name="cont">Privacy Policy Let us know if you have any comments or complaints. \n \n<b>E-mail : ranaahmmed786@gmail.com</b></string>
     <string name="youtube">আমাদের ইউটিউব চ্যানেল</string>
-    <string name="duas">দোয়া সমূহ</string>
-    <string name="NamezLearn">নামাজ শিক্ষা</string>
+    <string name="duas">হাদীসের দোয়া সমূহ</string>
+    <string name="NamezLearn">সঠিক নামাজ শিক্ষা</string>
+    <string name="islamic_status">ইসলামিক স্ট্যাটাস</string>
 
 
     <!--    Start here-->
@@ -1624,7 +1665,6 @@
 বি.দ্র: অন্য ভাষায় কুরআন সঠিক উচ্চারণ লেখা কখনই সম্ভব নয় । অনুগ্রহপূর্বক কষ্ঠ করে আরবি শিখবেন ।</item>
 
 
-
     </string-array>
 
     <!--    দোয়া সমূহ এখান থেকে কাজ করিস -->
@@ -1672,7 +1712,6 @@
 
 ⭕ উৎসঃ \n(তিরমিযী হাঃ ১০৫৩) \n\n ⭕ বিস্তারিতঃ \n\nআবূ করায়ব (রহঃ)... ইবন আববাস (রা) থেকে বর্ণিত যে, তিনি বলেন, রাসূলুল্লাহ্ (সা) মদীনার কবরস্থানের পাশ দিয়ে যাচ্ছিলেন। তখন এর দিকে ফিরে বললেন:আসসালামু আলাইকুম হে কবরের অধিবাসীগণ, আল্লাহ্ তাআলা আমাদের এবং তোমাদের মাগফিরাত করুন। তোমরা আমাদের পূর্বসূরী আর আমরা তোমাদের পদাংক অনুসারী।
 ‌</item>
-
 
 
         <item>⭕⭕ ঘর থেকে বের হওয়ার দুআঃ\n\n ⭕ আরবিঃ \n\n
@@ -2559,7 +2598,7 @@ Then:
     </string-array>
 
 
-<!--        নামাজের দোোয়া সমূহ এখান থেকে কাজ করিস -->
+    <!--        নামাজের দোোয়া সমূহ এখান থেকে কাজ করিস -->
 
     <string-array name="namez_title">
 
@@ -2780,6 +2819,33 @@ Then:
 ✹ এশার সময়ঃ\n\nস্বাস্থ্য বিশেষজ্ঞরা বলেন, রাতে বিছানায় যাওয়ার আগে হাল্কা ব্যায়াম করে নিলে তা স্বাস্থের জন‌্য ভাল। এশার নামাজ ব্যায়ামের চেয়েও বেশি উপকারি এ নামাজ আদায়ে শান্তি পাওয়া যায়, খাদ্য হজম হয় এবং অস্থিরতা দূর করে।\n\n\n
 
 ✹ তাহাজ্জুদের সময়ঃ\n\nএ সময় নামাজ আদায়ে অস্বস্তি, নিদ্রাহীনতা, হার্ট, স্নায়ুর সংকোচন ও বন্ধন সহ মাথার বিভিন্ন রোগ নিরাময়ে কাজ করে। স্বাস্থ্য বিশেষজ্ঞরা বলেন, যারা দূরের জিনিস ভালভাবে দেখতে পায়না তারা এ সময়ে নামাজ আদায় করলে সুফল পাবে। এছাড়াও এ সময়ে নামাজ আদায় করলে বুদ্ধি, আনন্দ এবং অসাধারণ শক্তির সৃষ্টি হয় যা নামাজিকে সারাদিন উৎফুল্ল রাখে।</item>
+
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+<!--    ইসলামিক স্ট্যাটাস-->
+
+
+    <string-array name="islamic_status_title">
+
+        <item>Rana</item>
+
+    </string-array>
+
+
+    <string-array name="islamic_status_details">
+
+
+        <item>Sharif</item>
 
     </string-array>
 
