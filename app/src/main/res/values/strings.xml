@@ -1679,6 +1679,10 @@ AppAmarBD built the সূরা ও দোয়া app as a Free app. This ser
         <item>নামাজের মধ্যে অংশ</item>
         <item>নামাজের শেষে</item>
         <item>নামাজের শেষে অংশ</item>
+        <item>ঈদ</item>
+        <item>হজ্জ</item>
+        <item>হজ্জ অংশ</item>
+        <item>দৈনিক অনান্য দোয়া</item>
 
     </string-array>
 
@@ -3203,6 +3207,18 @@ Then:
 
 
         <item>নামাজের শেষে অংশ</item>
+
+
+        <item>ঈদ</item>
+
+
+        <item>হজ্জ</item>
+
+
+        <item>হজ্জ অংশ</item>
+
+        
+        <item>দৈনিক অনান্য দোয়া</item>
 
     </string-array>
 
