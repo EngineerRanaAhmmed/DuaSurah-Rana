@@ -6,23 +6,23 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/icon_home"
+            android:icon="@drawable/quran"
             android:title="@string/menu_home" />
 
         <item
             android:id="@+id/nav_home2"
             android:title="@string/duas"
-            android:icon="@drawable/icon_home"/>
+            android:icon="@drawable/hadus"/>
 
         <item
             android:id="@+id/nav_home3"
             android:title="@string/NamezLearn"
-            android:icon="@drawable/icon_home"/>
+            android:icon="@drawable/mosque"/>
 
         <item
             android:id="@+id/nav_home4"
             android:title="@string/islamic_status"
-            android:icon="@drawable/icon_home"/>
+            android:icon="@drawable/star"/>
 
 
         <item
