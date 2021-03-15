@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 }
 
             }
-        },5000);
+        },30000);
 
 
 
