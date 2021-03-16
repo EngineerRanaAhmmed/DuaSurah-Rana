@@ -5,6 +5,7 @@
     <string name="app_ID">ca-app-pub-5766227397554508~7728493150</string>
     <string name="Rewarded_ad_unit_id">ca-app-pub-5766227397554508/2764296306</string>
     <string name="Ins_ad_unit_id">ca-app-pub-5766227397554508/9971513116</string>
+    <string name="Banner_ads_unit_id">ca-app-pub-5766227397554508/1330729473</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

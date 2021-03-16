@@ -15,12 +15,17 @@
         app:title="@string/app_name"
         android:background="@color/purple_500"/>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
 
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scrollbars="none"
+            android:layout_above="@id/adView"
             >
 
 
@@ -49,15 +54,28 @@
                     />
 
 
+
+
             </LinearLayout>
+
+
+
 
 
         </ScrollView>
 
 
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/Banner_ads_unit_id">
+        </com.google.android.gms.ads.AdView>
 
-
-
-
+    </RelativeLayout>
 
 </LinearLayout >
