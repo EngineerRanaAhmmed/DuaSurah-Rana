@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#106A6B"
+    tools:context=".ExitDialog">
+
+
+    <ImageView
+        android:id="@+id/exitImage"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:src="@drawable/warning"
+        android:contentDescription="@string/exit"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit_app"
+        android:layout_toEndOf="@id/exitImage"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_marginStart="5dp"
+        />
+
+    <View
+        android:id="@+id/spaceView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/exitImage"
+        android:background="#ffffff"
+        />
+
+    <TextView
+        android:id="@+id/exitText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spaceView"
+        android:text="@string/exit_text"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/ben"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:background="#ffffff"
+        android:layout_below="@id/exitText"
+        >
+
+        <TextView
+            android:id="@+id/rateUsExit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/rate_this"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#106A6B"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            tools:ignore="RelativeOverlap">
+
+
+            <TextView
+                android:id="@+id/noExit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/no"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#106A6B"/>
+
+
+            <TextView
+                android:id="@+id/yesExit"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/yes"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#106A6B"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

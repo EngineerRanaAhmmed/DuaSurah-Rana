@@ -138,15 +138,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (drawer.isDrawerOpen(GravityCompat.START)){
             drawer.closeDrawer(GravityCompat.START);
         }else {
-            AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-            builder.setTitle("EXIT APP!")
-                    .setMessage("আপনি কি বইটি বন্ধ করতে চান?")
-                    .setPositiveButton("হ্যাঁ", (dialog, which) -> finishAffinity())
-                    .setNegativeButton("না", (dialog, which) -> {
-
-                    });
-
-            builder.create().show();
+//            AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+//            builder.setTitle("EXIT APP!")
+//                    .setMessage("আপনি কি বইটি বন্ধ করতে চান?")
+//                    .setPositiveButton("হ্যাঁ", (dialog, which) -> finishAffinity())
+//                    .setNegativeButton("না", (dialog, which) -> {
+//
+//                    });
+//
+//            builder.create().show();
+            ExitDialog exitDialog = new ExitDialog();
+            exitDialog.show(getSupportFragmentManager(), "Exit app");
+            exitDialog.setCancelable(false);
 
         }
 
@@ -224,7 +227,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == R.id.action_exit) {
-            finishAffinity();
+            ExitDialog exitDialog = new ExitDialog();
+            exitDialog.show(getSupportFragmentManager(), "Exit app");
+            exitDialog.setCancelable(false);
         }
         return super.onOptionsItemSelected(item);
 

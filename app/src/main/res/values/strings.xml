@@ -84,6 +84,11 @@ AppAmarBD built the সূরা ও দোয়া app as a Free app. This ser
     <string name="duas">হাদীসের দোয়া সমূহ</string>
     <string name="NamezLearn">সঠিক নামাজ শিক্ষা</string>
     <string name="islamic_status">ইসলামিক স্ট্যাটাস</string>
+    <string name="exit_app">EXIT APP!</string>
+    <string name="exit_text">অ্যাপটি ভাল লেগে থাকলে ৫ স্টার রেটিং দিন। এইটি আমাদের ভালো অ্যাপ বানাতে উৎসাহিত করে। অ্যাপটি ভাল লাগলে বন্ধুদের সাথে শেয়ার করুন। ধন্যবাদ</string>
+    <string name="rate_this">RATE THIS</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
 
 
     <!--    Start here-->
@@ -4967,8 +4972,7 @@ Then:
     </string-array>
 
 
-
-<!--    ইসলামিক স্ট্যাটাস-->
+    <!--    ইসলামিক স্ট্যাটাস-->
 
 
     <string-array name="islamic_status_title">
