@@ -7,7 +7,21 @@
     tools:context=".HomeFragment">
 
 
+    <TextView
+        android:id="@+id/marqueeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_marquee"
+        android:background="@drawable/marquee"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:ellipsize = "marquee"
+        android:singleLine = "true"
+        />
+
+
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/marqueeText"
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

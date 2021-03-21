@@ -1,146 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ContactFragment">
 
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center"
+       >
 
     <TextView
         android:id="@+id/info"
         android:layout_width="311dp"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
         android:text="@string/contact_us_admin"
-        android:layout_marginTop="20dp"
-        android:gravity="center"
+        android:textColor="#292929"
         android:textSize="22sp"
-        android:textColor="#292929"
-        android:textStyle="bold"
-        />
-
-    <TextView
-        android:id="@+id/infoName"
-        android:layout_below="@id/info"
-        android:layout_width="311dp"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:gravity="center"
-        android:textSize="18sp"
-        android:text="@string/rana_small_leter"/>
-
-
-
-
-    <TextView
-        android:id="@+id/emailText"
-        android:layout_below="@id/infoName"
-        android:layout_width="311dp"
-        android:layout_height="wrap_content"
-        android:text="@string/email_address"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:textColor="#292929"
-        android:textStyle="bold"
-        />
-
-    <TextView
-        android:id="@+id/emailAddressView"
-        android:layout_width="311dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/emailText"
-        android:layout_centerHorizontal="true"
-        android:text="@string/email"
-        android:textColor="@color/purple_500"
-        android:linksClickable="true"
-        android:autoLink="email"
-        />
-
-    <TextView
-        android:id="@+id/phoneText"
-        android:layout_width="311dp"
-        android:layout_height="wrap_content"
-        android:text="@string/phone_number"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:textColor="#292929"
-        android:textStyle="bold"
-        android:layout_below="@id/emailAddressView"
-        />
-
-    <TextView
-        android:id="@+id/phoneView"
-        android:layout_width="311dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/phoneText"
-        android:layout_centerHorizontal="true"
-        android:text="@string/phone"
-        android:textColor="@color/purple_500"
-        android:linksClickable="true"
-        android:autoLink="phone"
-        />
-
-
-    <TextView
-        android:id="@+id/whatsAppText"
-        android:layout_below="@id/phoneView"
-        android:layout_width="311dp"
-        android:layout_height="wrap_content"
-        android:text="@string/whatsapp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:textColor="#292929"
-        android:textStyle="bold"
-        />
-
-    <TextView
-        android:id="@+id/whatsAppLink"
-        android:layout_below="@id/whatsAppText"
-        android:layout_width="311dp"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="@string/contact_whatsapp"
-        android:textColor="@color/purple_500"
-        />
-
-
-    <TextView
-        android:id="@+id/infoDes"
-        android:layout_width="311dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/whatsAppLink"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:text="@string/dest_rana_2"
-        android:textAlignment="center"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/infoShow"
+        android:id="@+id/infoName"
         android:layout_width="311dp"
         android:layout_height="wrap_content"
-        android:lineSpacingExtra="10dp"
-        android:text="@string/des_rana"
-        android:textAlignment="center"
-        android:layout_below="@id/infoDes"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        />
-
-    <com.airbnb.lottie.LottieAnimationView
-        android:layout_width="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/infoShow"
-        app:lottie_rawRes="@raw/thankyou"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        />
+        android:gravity="center"
+        android:text="@string/rana_small_leter"
+        android:textSize="18sp" />
 
 
 
+       <TextView
+           android:layout_width="311dp"
+           android:layout_height="wrap_content"
+           android:text="@string/title_contact"
+           android:layout_marginTop="20dp"
+           android:lineSpacingExtra="5dp"
+           android:textColor="#000"
+           android:autoLink="all"
+           android:background="@drawable/cn_t_bg"
+           android:elevation="50dp"
+           android:padding="10dp"
+           />
 
-</RelativeLayout>
+       <TextView
+           android:layout_width="311dp"
+           android:layout_height="wrap_content"
+           android:text="@string/co_subtitle"
+           android:textColor="#000"
+           android:layout_marginTop="20dp"
+           />
+
+
+
+   </LinearLayout>
+
+
+</ScrollView>
