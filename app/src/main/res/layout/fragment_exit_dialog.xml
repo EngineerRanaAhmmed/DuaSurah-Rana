@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#106A6B"
+    android:background="@color/purple_500"
     tools:context=".ExitDialog">
 
 
@@ -48,11 +48,43 @@
 
 
     <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exitText"
+        android:background="#ffffff"
+        >
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewExit"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/Banner_ads_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_below="@id/adViewExit"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:padding="10dp"
         android:background="#ffffff"
-        android:layout_below="@id/exitText"
+        android:layout_below="@id/rel"
         >
 
         <TextView
@@ -62,7 +94,8 @@
             android:text="@string/rate_this"
             android:gravity="center"
             android:textStyle="bold"
-            android:textColor="#106A6B"/>
+            android:textColor="#106A6B"
+            tools:ignore="RelativeOverlap" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -98,6 +131,8 @@
 
 
     </RelativeLayout>
+
+
 
 
 

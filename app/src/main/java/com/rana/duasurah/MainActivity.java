@@ -192,7 +192,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(intent);
                 break;
             case R.id.nav_share:
-            case R.id.nav_send:
                 Ads();
                 String myData = "https://play.google.com/store/apps/details?id=" + getPackageName();
                 Intent intentShare = new Intent();
