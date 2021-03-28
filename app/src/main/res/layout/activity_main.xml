@@ -21,7 +21,7 @@
             android:background="@color/purple_500"
             android:id="@+id/toolbar"
             app:titleTextColor="#FFFFFF"
-            app:title="সূরা ও দোয়ার ভান্ডার"
+            app:title="সূরা সমূহ ও দোয়া সমূহ"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             android:elevation="4dp"/>

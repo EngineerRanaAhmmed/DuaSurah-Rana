@@ -15,6 +15,7 @@
         app:title="@string/app_name"
         android:background="@color/purple_500"/>
 
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -76,6 +77,9 @@
             ads:adUnitId="@string/Banner_ads_unit_id">
         </com.google.android.gms.ads.AdView>
 
+
     </RelativeLayout>
+
+
 
 </LinearLayout >

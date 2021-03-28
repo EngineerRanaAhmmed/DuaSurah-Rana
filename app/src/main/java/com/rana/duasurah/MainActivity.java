@@ -181,6 +181,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new IslamicStatusFragment()).commit();
                 break;
 
+            case R.id.islamic_status:
+                Ads();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Status()).commit();
+                break;
+
             case R.id.nav_contact:
                 Ads();
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new ContactFragment()).commit();
