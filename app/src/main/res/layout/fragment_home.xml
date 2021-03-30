@@ -24,6 +24,7 @@
         android:layout_below="@id/marqueeText"
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
+        android:layoutAnimation="@anim/layout_animation_up_to_down"
         android:layout_height="match_parent" />
 
 
