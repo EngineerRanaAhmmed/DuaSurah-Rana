@@ -85,6 +85,6 @@ public class ViewLayout extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
+        overridePendingTransition(0, R.anim.slide_out);
     }
 }

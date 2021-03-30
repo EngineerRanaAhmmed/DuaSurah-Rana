@@ -23,7 +23,7 @@ import com.google.android.gms.ads.initialization.OnInitializationCompleteListene
 public class ExitDialog extends DialogFragment {
     private AdView mAdView;
     RelativeLayout relativeLayout;
-    Animation animation;
+    Animation animation, fadeOut;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -33,6 +33,7 @@ public class ExitDialog extends DialogFragment {
 
         relativeLayout = view.findViewById(R.id.exitLayout);
         animation = AnimationUtils.loadAnimation(getContext(), R.anim.fade_in);
+        fadeOut = AnimationUtils.loadAnimation(getContext(), R.anim.fade_out);
         relativeLayout.setAnimation(animation);
 
         AdView adView = new AdView(getActivity());
@@ -56,7 +57,6 @@ public class ExitDialog extends DialogFragment {
 
         yes.setOnClickListener(v -> {
             getActivity().finishAffinity();
-            getActivity().overridePendingTransition(0, R.anim.fade_out);
         });
 
         no.setOnClickListener(v -> {
