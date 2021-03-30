@@ -1,8 +1,12 @@
 package com.rana.duasurah;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -17,6 +21,7 @@ import com.google.android.gms.ads.MobileAds;
 import java.util.Objects;
 
 public class ViewLayout extends AppCompatActivity {
+    Animation animation;
 
     private static final String TAG = "ViewLayout";
     Toolbar toolbar;
@@ -32,6 +37,8 @@ public class ViewLayout extends AppCompatActivity {
         setSupportActionBar(toolbar);
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
+        animation = AnimationUtils.loadAnimation(this, R.anim.slide_in);
+
         AdView adView = new AdView(this);
         adView.setAdSize(AdSize.BANNER);
         adView.setAdUnitId(getString(R.string.Banner_ads_unit_id));
@@ -41,6 +48,8 @@ public class ViewLayout extends AppCompatActivity {
         AdView mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+
+
 
 
 
@@ -58,6 +67,7 @@ public class ViewLayout extends AppCompatActivity {
     private void setText(String textItem){
         TextView textView = findViewById(R.id.activityPageText);
         textView.setText(textItem);
+        textView.setAnimation(animation);
     }
 
     private void title(){
@@ -72,5 +82,9 @@ public class ViewLayout extends AppCompatActivity {
         mToolBar.setTitle(toolBarItem);
     }
 
-
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
+    }
 }

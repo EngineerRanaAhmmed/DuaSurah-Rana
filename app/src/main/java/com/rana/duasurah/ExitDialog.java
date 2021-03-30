@@ -1,19 +1,17 @@
 package com.rana.duasurah;
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-
-import androidx.fragment.app.DialogFragment;
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import androidx.fragment.app.DialogFragment;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
@@ -24,12 +22,18 @@ import com.google.android.gms.ads.initialization.OnInitializationCompleteListene
 
 public class ExitDialog extends DialogFragment {
     private AdView mAdView;
+    RelativeLayout relativeLayout;
+    Animation animation;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_exit_dialog, container, false);
+
+        relativeLayout = view.findViewById(R.id.exitLayout);
+        animation = AnimationUtils.loadAnimation(getContext(), R.anim.fade_in);
+        relativeLayout.setAnimation(animation);
 
         AdView adView = new AdView(getActivity());
         adView.setAdSize(AdSize.BANNER);
@@ -52,6 +56,7 @@ public class ExitDialog extends DialogFragment {
 
         yes.setOnClickListener(v -> {
             getActivity().finishAffinity();
+            getActivity().overridePendingTransition(0, R.anim.fade_out);
         });
 
         no.setOnClickListener(v -> {

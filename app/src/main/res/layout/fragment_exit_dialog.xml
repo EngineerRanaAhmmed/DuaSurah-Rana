@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/purple_500"
+    android:id="@+id/exitLayout"
     tools:context=".ExitDialog">
 
 
@@ -66,14 +67,6 @@
         ads:adSize="BANNER"
         ads:adUnitId="@string/Banner_ads_unit_id">
     </com.google.android.gms.ads.AdView>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#000"
-            android:layout_below="@id/adViewExit"
-            android:layout_marginTop="10dp"
-            />
 
 
     </RelativeLayout>
