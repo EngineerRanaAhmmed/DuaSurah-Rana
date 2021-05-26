@@ -11,19 +11,17 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.InterstitialAd;
-import com.google.android.gms.ads.rewarded.RewardItem;
-import com.google.android.gms.ads.rewarded.RewardedAd;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.rewarded.RewardItem;
+import com.google.android.gms.ads.rewarded.RewardedAd;
 import com.google.android.gms.ads.rewarded.RewardedAdCallback;
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback;
 import com.google.android.material.navigation.NavigationView;
@@ -32,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private DrawerLayout drawer;
     private RewardedAd rewardedAd;
     private InterstitialAd mInterstitialAd;
+    Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +41,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mInterstitialAd.setAdUnitId(getString(R.string.Ins_ad_unit_id));
         AdRequest adRequest = new AdRequest.Builder().build();
         mInterstitialAd.loadAd(adRequest);
+
+        toolbar = findViewById(R.id.mainToolbar);
+        setSupportActionBar(toolbar);
 
         rewardedAd = new RewardedAd(this,
                 getString(R.string.Rewarded_ad_unit_id));
@@ -101,8 +103,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+
 
 
 
@@ -124,7 +125,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (savedInstanceState == null){
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new HomeFragment()).commit();
             navigationView.setCheckedItem(R.id.nav_home);
-
+            toolbar.setTitle(getString(R.string.menu_home));
 
 
         }
@@ -164,26 +165,31 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_home:
                 Ads();
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new HomeFragment()).commit();
+                toolbar.setTitle(getString(R.string.menu_home));
                 break;
 
             case R.id.nav_home2:
                 Ads();
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new DuaFragment()).commit();
+                toolbar.setTitle(getString(R.string.duas));
                 break;
 
             case R.id.nav_home3:
                 Ads();
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new NamezFragment()).commit();
+                toolbar.setTitle(getString(R.string.NamezLearn));
                 break;
 
             case R.id.nav_home4:
                 Ads();
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new IslamicStatusFragment()).commit();
+                toolbar.setTitle(getString(R.string.islamic_status));
                 break;
 
             case R.id.islamic_status:
                 Ads();
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Status()).commit();
+                toolbar.setTitle(getString(R.string.islamic_status_2));
                 break;
 
             case R.id.nav_contact:
@@ -208,6 +214,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
                 case R.id.nav_privacy:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new PrivacyPolicyFragment()).commit();
+                    toolbar.setTitle(getString(R.string.privacy));
                 break;
 
 
